@@ -13,7 +13,7 @@ csv()
       }
     }
     fs.writeFile(
-      "src/public/output/matchesPerYear.json",
+      "src/public/output/1-matchesPerYear.json",
       JSON.stringify(totalMatchesPerYear),
       (err) => {
         if (err) {
